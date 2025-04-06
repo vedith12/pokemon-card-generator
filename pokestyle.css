@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #f3caa2 0%, #f06868 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background: #ffffffee;
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: 700;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 12px;
+  border: 2px solid #a18cd1;
+  border-right: none;
+  border-radius: 12px 0 0 12px;
+  outline: none;
+  width: 60%;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  background-color: #ff7eb3;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 12px 12px 0;
+  font-weight: 600;
+  box-shadow: 0 4px 0 #d76da4;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #ff6aa9;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #d76da4;
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 0 #d76da4;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: #444;
+  font-weight: 600;
+}
+
+.types {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.type {
+  padding: 6px 12px;
+  border-radius: 14px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat {
+  text-align: center;
+}
